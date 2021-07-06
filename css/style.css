@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container section {
+    flex: 1 1 25%
+}
+
+.flex-container img {
+    height:200px;
+    border-radius:10%;
+}
