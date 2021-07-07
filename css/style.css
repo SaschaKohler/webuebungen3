@@ -8,6 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 
+main{
+    max-width:1024px;
+    margin:0 auto;
+}
 nav {
     background-color: darkslategrey;
     height:5rem;
@@ -37,12 +41,12 @@ a{
 }
 
 .flex-container > *{
-    flex: 1 1 47%; 
+    flex: 1 1 31%; 
     display:flex;
     border: 1px solid silver;
     border-radius: 2%;
     margin:1rem;
-    padding: 1rem;
+    padding: .5rem;
     background-color: silver;
     min-width:200px;
     flex-wrap: wrap;
@@ -62,13 +66,13 @@ a{
     display:flex;
     flex-direction: column;
     background-color: silver;
-    width:47%;
+    width:40%;
+    padding-left:2%;
 }
 
 .content h2,p{
     font-family: sans-serif;
     text-align: center;
-    padding:.5rem;
     
 }
 
