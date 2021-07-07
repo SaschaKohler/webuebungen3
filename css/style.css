@@ -51,7 +51,7 @@ a {
     border-radius: 2%;
     margin: 1rem;
     padding: .5rem;
-    background-color: silver;
+    background-color:rgba(228, 228, 228, 0.26);
     min-width: 200px;
     flex-wrap: wrap;
 }
@@ -67,7 +67,7 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    background-color: silver;
+
     width: 40%;
     padding-left: 2%;
 }
@@ -91,6 +91,7 @@ aside p {
 }
 
 footer{
+    padding:2%;
     background-color: darkslategrey;
     height: 200px;
     color:white;
