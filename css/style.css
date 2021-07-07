@@ -1,87 +1,96 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-main{
-    max-width:1024px;
-    margin:0 auto;
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom:20%;
 }
+
 nav {
     background-color: darkslategrey;
-    height:5rem;
+    height: 5rem;
     color: white;
     font-weight: bolder;
     font-size: larger;
     border-bottom: 2px solid silver;
 }
-nav ul{
-    display:flex;
+
+nav ul {
+    display: flex;
     flex-direction: row-reverse;
     list-style: none;
 }
 
-nav ul li{
-    display:block;
+nav ul li {
+    display: block;
     padding: 1rem;
 }
-a{
- color:white;
+
+a {
+    color: white;
 }
 
-.flex-container{
-    display:flex;
+.flex-container {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.flex-container > *{
-    flex: 1 1 31%; 
-    display:flex;
+.flex-container>* {
+    flex: 1 1 31%;
+    display: flex;
     border: 1px solid silver;
     border-radius: 2%;
-    margin:1rem;
+    margin: 1rem;
     padding: .5rem;
     background-color: silver;
-    min-width:200px;
+    min-width: 200px;
     flex-wrap: wrap;
-    
-    
 }
 
-
-.img-fluid{
+.img-fluid {
     width: 100%;
-    max-width:270px;
-    margin:auto;
-    border-radius:4%;
+    max-width: 270px;
+    margin: auto;
+    border-radius: 4%;
     padding-right: 0.3rem;
 }
-.content{
-    display:flex;
+
+.content {
+    display: flex;
     flex-direction: column;
     background-color: silver;
-    width:40%;
-    padding-left:2%;
+    width: 40%;
+    padding-left: 2%;
 }
 
-.content h2,p{
+.content h2,p {
     font-family: sans-serif;
     text-align: center;
-    
 }
 
 .content h2 {
-    border-bottom:1px solid silver;
+    border-bottom: 1px solid silver;
 }
 
-aside p{
-    border-top:1px solid silver;
-    border-bottom:1px solid silver;
+video {
+    border-radius:10%;
+}
 
+aside p {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+footer{
+    background-color: darkslategrey;
+    height: 200px;
 }
