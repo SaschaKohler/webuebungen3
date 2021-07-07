@@ -11,7 +11,7 @@ html {
 main {
     max-width: 1024px;
     margin: 0 auto;
-    margin-bottom:20%;
+    margin-bottom:2%;
 }
 
 nav {
@@ -93,4 +93,7 @@ aside p {
 footer{
     background-color: darkslategrey;
     height: 200px;
+    color:white;
+    text-align: center;
+    font-size:larger;
 }
